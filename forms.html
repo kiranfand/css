@@ -1,0 +1,63 @@
+<html>
+    <head>
+        <title>Registration Form</title>
+    </head>
+    <body>
+        <div>
+            <fieldset>
+                <table align="Center" cellspacing="30px" >
+                    <legend>Registration Details</legend>
+                  <form action="forms.html" method="get">
+                    <tr  >
+                        <td align="right">
+                            <label for="uname" >University : </label>
+                        </td>
+                        <td>
+                            <input type="text" name="uname" id="uname" pattern="[A-Za-z]" placeholder="eg. D.Y.Patil University">
+                        </td>
+                    </tr>
+                    <tr >
+                        <td align="right" >
+                            <label for="iname">Institute : </label>
+                        </td>   
+                        <td>
+                            <input type="text" name="iname" id="iname" pattern="[A-Za-z]" placeholder="eg. IACSD">
+                        </td>                   
+                    </tr>
+                    <tr>
+                        <td align="right">
+                            <label for="branch">Branch : </label>
+                        </td>
+                        <td>
+                            <select name="bname" id="branch"  >
+                                <option >---Select your branch</option>
+                                <option value="Mechanical">Mechanical</option>
+                                <option value="Civil">Civil</option>
+                                <option value="Computer Science">E&TC</option>
+                                <option value="Electical">Computer</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="Dname">Degree : </label>
+                        </td>
+                        <td>
+                            <select name="Dname" id="Dname"  >
+                                <option >---Select your branch</option>
+                                <option value="BE">BE</option>
+                                <option value="BTech">BTech</option>
+                                <option value="ME">ME</option>
+                                <option value="PHD">PHD</option>
+                            </select>
+                        </td>
+                        <td>
+                            <input type="text">
+                        </td>
+                    </tr>
+               </form>
+                </table>
+            </fieldset>
+        </div>
+    </body>
+</html>
